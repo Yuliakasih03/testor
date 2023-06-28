@@ -1,0 +1,3 @@
+get_script_address
+from dys import _chain, get_script_address, get_caller
+assert get_script_address() == get_caller(), "permission denied"
